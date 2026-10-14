@@ -1,0 +1,24 @@
+#ndrh-overlay {
+  position: fixed; right: 14px; top: 14px; z-index: 2147483647;
+  width: min(360px, calc(100vw - 28px)); padding: 11px 12px; border-radius: 9px;
+  background: rgba(247,249,253,.98); color: #17213a;
+  font: 12px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  border: 1px solid rgba(25,55,110,.3); box-shadow: 0 4px 18px rgba(0,0,0,.25);
+}
+#ndrh-overlay strong { font-size: 14px; }
+#ndrh-overlay .ndrh-monitor-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+#ndrh-overlay .ndrh-monitor-heading span { color: #24487f; font-size: 11px; font-weight: 700; text-transform: capitalize; }
+#ndrh-overlay .ndrh-monitor-target { margin-top: 4px; }
+#ndrh-overlay .ndrh-monitor-detail { margin-top: 5px; font-weight: 700; }
+#ndrh-overlay .ndrh-monitor-alert { margin-top: 7px; padding: 5px 6px; border-radius: 5px; background: #dff4e4; color: #0b5b23; font-weight: 700; }
+#ndrh-overlay .ndrh-monitor-activity { margin-top: 7px; color: #40506f; font-size: 11px; }
+#ndrh-overlay button { margin-top: 9px; border: 1px solid #1b4079; border-radius: 6px; background: #fff; color: #10285c; padding: 4px 8px; font: inherit; cursor: pointer; }
+#ndrh-overlay.available { background: rgba(232,247,236,.98); border-color: rgba(15,110,35,.6); box-shadow: 0 0 0 3px rgba(40,180,65,.2), 0 4px 18px rgba(0,0,0,.25); }
+
+#ndrh-overlay.rejected {
+  background: rgba(255,239,239,.98); color: #671313;
+  box-shadow: 0 0 0 4px rgba(220,50,50,.35), 0 4px 18px rgba(0,0,0,.25);
+}
+#ndrh-overlay.armed {
+  background: rgba(233,241,255,.98);
+}
