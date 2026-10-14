@@ -1,6 +1,8 @@
 # Notre-Dame Reservation Helper
 
-Local Chrome extension for monitoring reservation availability on `resa.notredamedeparis.fr` inside an already Cloudflare-verified Chrome session.
+Local Chrome extension for monitoring reservation availability on `resa.notredamedeparis.fr` inside an already Cloudflare-verified Chrome session. It is an independent project and is not affiliated with Notre-Dame de Paris or its reservation provider.
+
+The repository deliberately excludes saved reservation pages, diagnostics, and other browser captures. Those files can include third-party assets or reservation information and remain local only.
 
 ## Current version: 0.7.23
 
