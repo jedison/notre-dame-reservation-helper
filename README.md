@@ -4,6 +4,11 @@ A local Chrome extension for monitoring reservation availability in a user's
 already-verified browser session. It is an independent technical prototype,
 not an official Notre-Dame tool or booking service.
 
+![Notre-Dame Reservation Helper shown on the normal reservation page](docs/images/reservation-page-helper.png)
+
+_The helper runs as an overlay in the user's existing reservation session; it
+does not replace the site or bypass its verification steps._
+
 ## What it does
 
 - Monitors available reservation slots for an exact time, time range, or any
