@@ -4,9 +4,22 @@ Local Chrome extension for monitoring reservation availability on `resa.notredam
 
 The repository deliberately excludes saved reservation pages, diagnostics, and other browser captures. Those files can include third-party assets or reservation information and remain local only.
 
+## Public-project status
+
+This is a technical prototype and local Chrome extension, not a booking service
+or an official Notre-Dame tool. Availability monitoring and the offline test
+suite are the most mature parts. Any reservation-flow automation is explicitly
+user-controlled, depends on the site's current markup and normal browser
+session, and may stop when the site changes or presents a protection.
+
+Read the [public roadmap](PROJECT_STATUS.md), [privacy notes](docs/PRIVACY.md),
+[third-party notices](docs/THIRD_PARTY_NOTICES.md), and
+[Apache-2.0 license](LICENSE) before use or distribution.
+
 ## Current version: 0.7.23
 
-For the current implementation status, live-verification limits, and prioritized continuation plan, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
+For the public implementation status and prioritized continuation plan, see
+[PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ### Core behavior
 
